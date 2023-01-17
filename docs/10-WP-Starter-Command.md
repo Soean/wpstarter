@@ -37,7 +37,7 @@ Options:
 
 ### Customizing steps to run ("opt-in" mode)
 
-The first thing to notice is that is is possible to pass an array of step to run, by listing them after the command, for example:
+The first thing to notice is that it is possible to pass an array of step to run, by listing them after the command, for example:
 
 ```shell
 composer wpstarter publish-content-dev wp-cli
@@ -79,7 +79,7 @@ composer wpstarter --skip step-one step-two
 
 assuming that "step-one" and "step-two" are all the steps listed in the `custom-steps` setting. 
 
-Note that tis flag is ignored when running in the "opt-in" mode (i.e. listing one or more steps without using the `--skip` flag). Reason is opt-in mode takes precedence over opt-out mode, so if the command is run like:
+Note that this flag is ignored when running in the "opt-in" mode (i.e. listing one or more steps without using the `--skip` flag). Reason is opt-in mode takes precedence over opt-out mode, so if the command is run like:
 
 ```shell
 composer wpstarter step-one --skip-custom

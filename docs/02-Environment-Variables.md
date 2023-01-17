@@ -121,7 +121,7 @@ There are many places in which such code can be placed, for example a MU plugin.
 
 Alternatively WP Starter can be instructed to do something like this automatically.
 
-The way to go is to use an environment variable called `WP_STARTER_ENV_TO_CONST` that needs to contain a list of of comma-separated list of environment variables that needs to be turned into constants:
+The way to go is to use an environment variable called `WP_STARTER_ENV_TO_CONST` that needs to contain a list of comma-separated list of environment variables that needs to be turned into constants:
 
 ```shell
 WP_STARTER_ENV_TO_CONST=AWESOME_PLUGIN_CONFIG,ANOTHER_VAR,YET_ANOTHER

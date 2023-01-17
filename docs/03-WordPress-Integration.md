@@ -50,7 +50,7 @@ Please note: if WordPress is **not** installed as Composer package (and that the
 When WordPress is installed using a core package like the [one](https://packagist.org/packages/johnpbloch/wordpress) from [John P. Bloch](https://johnpbloch.com/), the package comes with default themes (Twenty*) and plugins ("Akismet", "Hello Dolly").
 
 Those are often not used at all, all the more so in WP Starter installations where they are not recognized 
-by WordPress, because the content folder is customized to be a separate folder outside the core Wordpress folder.
+by WordPress, because the content folder is customized to be a separate folder outside the core WordPress folder.
 
 WP Starter provides an option to register default themes shipped with core packages, so that they can 
 be recognized, but more often than not default themes and plugins are just unnecessary.
